@@ -1,0 +1,259 @@
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+.imageIcons{
+        margin-right: 10px;
+  }
+  .menuOptions a{
+    color:darkgrey;
+  }
+  .menuBar{
+    position: absolute;
+    margin-top: -715px; 
+    margin-left: 100px;
+  }
+  #Name{
+    color: white; 
+    font-size: 60px
+  }
+  .navbar-brand{ 
+  background: url(https://www.springboard.com/images/springboard/springboard_logo.c9ce99a3.png) center / contain no-repeat;
+  width: 200px;
+  margin-right: 550px;
+}
+.navbar{
+  background-color: black;
+  margin-bottom: 0px!important; 
+}
+#name{
+  position: absolute;
+  padding-left: 10%;
+  color: white; 
+  font-size: 20px;
+}
+.details {
+  margin-top: 2%;
+   float: left;
+   position: absolute;
+   left: 10px;
+   top: 30%;
+   z-index: 1000;
+   padding-top: 5px;
+   color: #FFFFFF;
+   width: 50%;
+   height: 30%;
+   
+}
+#course{
+  color: white; 
+  font-size: 20px;
+  position: absolute;
+  top: 15%;
+  padding-left: 9%;
+}
+#earlierOccupation{
+  color: white; 
+  font-size: 20px;
+  position: absolute;
+  top: 28%;
+  padding-left: 9%;
+}
+#firstParagraph{
+  width: 100%;
+  height:30%;
+  background-color: #cccccc;
+  padding-left: 20%;
+  padding-right: 15%;
+  font-size: 20px;
+  padding-top: 2%;
+}
+.secondParagraph{
+  padding-left: 15%;
+  padding-top: 3%;
+  padding-right: 20%;
+}
+#pic{
+  padding-top: 0%;
+  margin-right: 0px;
+}
+#office1{
+  margin-top: 3%;
+}
+#last2{
+  float: right;
+  height: 50%;
+  padding-top: 2%;
+  padding-right:3%;
+     width: 20%;
+      margin-right: 20%;
+}
+#thirdParagraph{
+  width:55%;
+  padding-left: 15%;
+  display:inline-block;
+  padding-top: 2%;
+}
+#contact{
+  width:100%;
+  height: 30%;
+  background-color: #00cc99;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  padding-left: 15%;  
+}
+#topConatiner{
+  position: relative;
+  width:110%;
+  height:717px;
+}
+h1{
+  position: absolute;
+  top: 100px;
+  padding-left: 6%;
+
+}
+#designation{
+  position: absolute;
+  top: 20%;
+  padding-left: 6%;
+  margin-top: 3%;
+  color: white; 
+  font-size: 25px;
+}
+hr{
+  margin-top: 3%;
+  position: absolute;
+  padding-left: 0%;
+    padding-right: 5%;
+    margin-left: 6%;
+  top: 26%;
+  border-top: 2px solid #FFEB3B!important;
+}
+
+.footer1{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font:16px sans-serif;
+    margin-top: 0px!important;
+      padding-top: 50px;
+      margin-right: 5%!important;  
+}
+
+
+
+@media (max-width: 800px) {
+  .footer1 .left,
+  .footer1 .workshop,
+  .footer1 .resource,
+  .footer1 .right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer1{
+    font: bold 14px sans-serif;
+  }
+}
+
+.footer1 .left,
+.footer1 .workshop,
+.footer1 .resource,
+.footer1 .right{
+  display: inline-block;
+  vertical-align: top;
+}
+.resource{
+  float: right;
+  margin-right: 25%;
+    margin-top: -30.5%;
+}
+/* Footer left */
+
+.footer1 .left{
+  width: 40%;
+  padding-left: 50px;
+}
+
+.footer1 h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+.footer1 h3 span{
+  color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer1 .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer1 .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer1 .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer1 .workshop{
+  width: 30%;
+}
+
+
+.footer1 .workshop p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
+}
+#PageCopyright{
+  padding-left: 30%;
+}
+
+.footer1 .right{
+  width: 20%;
+}
+.footer1 .PageCopyright{
+  width: 100%;
+  background-color:black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.footer1 .footer-icons{
+  margin-top: 25px;
+}
+
+.footer1 .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+

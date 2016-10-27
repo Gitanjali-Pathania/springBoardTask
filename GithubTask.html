@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Github Card Component</title>
+  <link rel="stylesheet" href="./css/GithubCardstyles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</head>
+<body>
+<div style="margin:5%">
+  <div>
+    <span><input id="inputId" placeholder="github Login"/><button id="addButton" onclick="newEntry()">Add</button></span>
+    <hr>
+    <span class="sortCards">
+      <label>Sort by:</label>
+      <label id="sortByName" onclick="sortBy('byName')">Name</label>
+      <label onclick="sortBy('byLocation')" id="sortByLocation">Location</label>
+      <label onclick="sortBy('byFollowers')" id="sortByFollowers">Followers</label>
+    </span>
+  </div>
+  <div class="cardHolder">
+  </div>
+</div>
+
+</body>
+</html>
+

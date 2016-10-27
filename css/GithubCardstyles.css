@@ -1,0 +1,56 @@
+.sortCards label{
+	padding-right: 10px;
+}
+#addButton{
+	margin-left: 20px;
+    height: 30px;
+    width: 50px;
+}
+a:visited{
+  color:blue;
+}
+a{
+	text-decoration: none ! important;
+}
+.cardDiv:hover{
+    border:2px solid grey;
+}
+#sortByName:hover,#sortByLocation:hover,#sortByFollowers:hover{
+	color:blue;
+}
+#sortByName,#sortByLocation,#sortByFollowers{
+	cursor:pointer;
+}
+#inputId{
+	height:30px;
+	border-radius: 5px;
+}
+
+span{
+	font-size: 13px;
+}
+.cardHolder{
+	margin-top:20px;
+	padding-bottom: 1%;
+	padding-top: 2%;
+	height: auto;
+	 width: 100%;
+	float:left!important;
+}
+.cardDiv{
+	margin-left: 70px;
+	display: inline-block!important;
+}
+.name{
+	margin-top:5px;
+	padding-left: 10px; 
+}
+.location{
+	margin-top:20px;
+	margin-bottom: 0px;
+	padding-left: 10px; 
+}
+.follower{
+	margin-top: 20px;
+	padding-left: 10px; 
+}
